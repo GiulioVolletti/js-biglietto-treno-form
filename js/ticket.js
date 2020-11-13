@@ -45,5 +45,7 @@ btnGenera.addEventListener("click", function () {
   var codiceCarrozza = Math.floor(Math.random() * 9) + 1;
   document.getElementById('carrozza').innerHTML= codiceCarrozza;
   // Categoria selezionata dall'utente (offerta)
-
+  var removeHide = document.getElementById('hid');
+  removeHide.classList.remove("hidden")
+  
 } );
