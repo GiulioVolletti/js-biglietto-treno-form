@@ -65,7 +65,10 @@
   opacity: 0;
   transition: 1s;
 }
-
+.appear {
+  opacity: 1.0;
+  transition: 2s;
+}
 .inner_container > h1{
   padding: 20px;
   width: 80%;

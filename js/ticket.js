@@ -47,5 +47,5 @@ btnGenera.addEventListener("click", function () {
   // Categoria selezionata dall'utente (offerta)
   var removeHide = document.getElementById('hid');
   removeHide.classList.remove("hidden")
-  
+  removeHide.className += (" appear ")
 } );
