@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- ccs link -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Biglietti Treno</title>
+  </head>
+  <body>
+    <section class="container">
+      <h1>Calcola il prezzo del tuo biglietto</h1>
+      <!-- container dati top -->
+      <div class="inner_container">
+        <!-- dati -->
+        <div class="top">
+          <div>
+            <h3>Nome Cognome</h3>
+            <input id="nome" type="text"  placeholder="inserisci qui il tuo nome">
+          </div>
+          <div>
+            <h3>Km da percorrere</h3>
+            <input id="km" type="number" placeholder="inserisci km da percorrere" >
+          </div>
+          <div>
+            <h3>Fascia d'et&aacute;</h3>
+            <select id="fascia">
+              <option value="minorenne">Minorenne</option>
+              <option value="maggiorenne">Maggiorenne</option>
+              <option value="over_65">over 65</option>
+
+            </select>
+          </div>
+        </div>
+        <!-- /dati -->
+        <!-- pulsanti -->
+        <div class="bottom">
+          <a id="genera" class="btn" >Genera</a>
+          <a id="annulla" class="btn" >Annulla</a>
+        </div>
+        <!-- /pulsanti -->
+      </div>
+
+      <div class="inner_container">
+
+      </div>
+    </section>
+
+
+    <script src="js/ticket.js" charset="utf-8"></script>
+  </body>
+</html>
