@@ -49,3 +49,30 @@ btnGenera.addEventListener("click", function () {
   removeHide.classList.remove("hidden")
   removeHide.className += (" appear ")
 } );
+
+// annulla
+var btnAnnulla = document.getElementById('annulla');
+
+btnAnnulla.addEventListener("click", function () {
+  var removeHide = document.getElementById('hid');
+  removeHide.classList.remove("appear")
+  removeHide.className += (" hidden ")
+
+  // rimozione nome
+  document.getElementById('nome').value = "";
+  // rimozione Nome passeggero
+  document.getElementById('passeggero_nome').innerHTML= "";
+
+  // rimozione km
+  document.getElementById('km').value = "";
+
+  // rimozione età
+  document.getElementById('fascia').value = "";
+  // rimozione offerta prezzoBiglietto
+  document.getElementById("offerta").innerHTML= "";
+
+  document.getElementById("carrozza").innerHTML= "";
+  document.getElementById("codice_cp").innerHTML= "";
+  document.getElementById('costo_totale_biglietto').innerHTML="";
+}
+)
