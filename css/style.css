@@ -58,6 +58,12 @@
   border-radius: 2px solid blue;
   border-radius: 5%;
   text-decoration: none;
+  cursor: pointer;
+}
+.btn:active {
+  background-color: red;
+  transition: 1s;
+  color: white;
 }
 
 /* biglietto */
